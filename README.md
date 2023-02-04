@@ -1,2 +1,2 @@
 # NLP-Voter-Match
-This project utilized the RoBERTa NLP model to find the candidate(s) whose policies had the highest semantic similarities to a- voter’s political views
+First, we asked voters to enter few sentence summary of their political views. We then scraped candidate policies from their website. Next, I utilized the RoBERTa NLP model to find the candidate(s) whose policies had the highest semantic similarities to the voter’s political views. We then built a website using Node.js to host the backend model and a UI to interact with users and display the results of the model. The website is still a work in progress, but we have tested the model on various hypothetical voters. 
